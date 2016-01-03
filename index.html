@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sananmuunnosten ratkaisija</title>
+    <link rel="stylesheet" href="//writ.cmcenroe.me/1.0.2/writ.min.css">
+  </head>
+  <body>
+    <nav>
+      <a href="#en">In English</a>
+    </nav>
+    <main>
+      <p>Algoritmista sanojen muuntelua jo vuodesta 2016. Kokeile vaikka.
+      Uteliaille myös <a href="https://github.com/tuukkao/sananmuunnos.js">lähdekoodia tarjolla</a>.</p>
+      <form role="form">
+        <label for="pair">Sananmuunnos:</label>
+        <input id="pair" placeholder="sanan muunnos">
+        <input id="transform" type="submit" value="Muunna">
+      </form>
+      <p>Tulos: 
+        <span id="result" aria-live="assertive"></span>
+      </p>
+      <h3>Nautitko näkemästäsi? Näytä se!</h3>
+      <div>
+<a href="https://twitter.com/tuukkao" class="twitter-follow-button" data-show-count="false">Follow @tuukkao</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</div>
+<div>
+<a href="https://twitter.com/share" class="twitter-share-button"{count} data-via="tuukkao">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</div>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/fi_FI/sdk.js#xfbml=1&version=v2.5&appId=207944742603513";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>      </div>
+      <h3 id="en">In english:</h3>
+      <p>This is a browser demo of <a href="https://github.com/tuukkao/sananmuunnos.js">sananmuunnos.js</a>.
+      Just type a sananmuunnos into the box and hit "muunna".</p>
+    </main>
+    <footer>
+    &#169; 2016 Tuukka Ojala
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/sananmuunnos.js"></script>
+    <script src="js/logic.js"></script>
+  </body>
+</html>
