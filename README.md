@@ -27,6 +27,6 @@ Use the version in dist/sananmuunnos.js.
 ##Author
 Tuukka Ojala <tuukka.ojala@gmail.com>
 ##License
-This work is licensed under [the MIT license](license).
+This work is licensed under [the MIT license](LICENSE).
 [1]:https://en.wikipedia.org/wiki/Sananmuunnos
 [2]:https://github.com/tuukkao/sananmuunnos
